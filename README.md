@@ -6,7 +6,7 @@ This repository contains scripts and configuration files to auto-renew Burp coll
 
 ## Prerequisites
 
-To set up the environment, install the following tools:
+To setup the environment, install the following tools:
 
 - **Burp Pro JAR file**
   - <https://portswigger.net/burp/documentation/desktop/getting-started/download-and-install>
@@ -133,7 +133,7 @@ Congratulations, all renewals succeeded. The following certs have been renewed:
 
 ---
 
-## Set Up Cronjob for Auto-Renewal
+## Setup Cronjob for Auto-Renewal
 If dry-run worked fine, you now need to create cronjob that runs once a day or a week (whatever suits you). Mine runs everyday at 2AM.
 
 ```bash

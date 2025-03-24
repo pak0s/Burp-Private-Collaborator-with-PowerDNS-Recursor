@@ -153,4 +153,8 @@ crontab -e
 
 ---
 
-## Happy Hacking :)
+## Major Flaw
+
+The DNS requests logged by Burp should be the internal IP of PDNS Recursor.
+
+---
